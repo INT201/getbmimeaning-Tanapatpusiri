@@ -11,3 +11,4 @@ test('output#2', () => {
 test('output#3', () => {
   expect(testFn(44, 1.6)).toBe('Underweight')
 })
+
