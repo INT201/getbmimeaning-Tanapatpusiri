@@ -20,12 +20,7 @@ function getBMIMeaning(weight, height) {
 
   } else  (BMI>=25.0 )
   console.log(BMI)
-  return("Underweight");
+    return("Underweight");
 }
-
-
-
-  
-
 
   module.exports = getBMIMeaning
