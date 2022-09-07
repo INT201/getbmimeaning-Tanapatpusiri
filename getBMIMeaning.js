@@ -11,17 +11,24 @@ function getBMIMeaning(weight, height) {
  
   if ( BMI<18.5){
     console.log(BMI)
-    return("Underweight")
+    return("Underweight");
     
     
-  } else if (BMI>=18.5) {
+  } else if (BMI <=24.9) {
     console.log(BMI)
     return("Normal weight");
 
-  } else  (BMI>=25.0 )
+  } else if (BMI >25.0 ){
   console.log(BMI)
-    return("Overweight");
+    return("Overweight");  
+
+  } else {
+    return("test");
+  }
 }
-console.log(calculateBMI(65,1.8))
-console.log(getBMIMeaning(65,1.8))
+
+
+
+console.log(calculateBMI(80,1.7))
+console.log(getBMIMeaning(60,1.7))
   module.exports = getBMIMeaning
