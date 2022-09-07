@@ -29,6 +29,5 @@ function getBMIMeaning(weight, height) {
 
 
 
-console.log(calculateBMI(80,1.7))
-console.log(getBMIMeaning(60,1.7))
+
   module.exports = getBMIMeaning
