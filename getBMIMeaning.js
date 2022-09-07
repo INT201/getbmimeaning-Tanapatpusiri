@@ -3,11 +3,11 @@
 
 
 function calculateBMI(weight, height) {
- return weight/((height / 100) ** 2) ;
+ return weight/((height) ** 2) ;
 }
 
 function getBMIMeaning(weight, height) {
- let BMI = weight/((height / 100) ** 2)
+ let BMI = weight/((height) ** 2)
  
   if ( BMI<18.5){
     console.log(BMI)
